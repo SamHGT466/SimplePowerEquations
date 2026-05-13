@@ -15,15 +15,4 @@ A lightweight web application that calculates power equations (base^exponent) us
 2. Main thread listens for input changes
 3. Data is sent to Web Worker via `postMessage()`
 4. Worker calculates the power result
-5. Result is sent back to main thread and displayed on the page
-
-## Files
-
-- **index.html** - Main HTML structure and UI
-- **main.js** - Main thread logic, input handling, and Web Worker initialization
-- **worker.js** - Background worker that performs power calculations
-- **stili.css** - Styling for the application
-
-## Usage
-
-Open `index.html` in a modern web browser to use the application. Enter a base and exponent value to see the calculated result.
+5. Result is sent back to main thread and displayed on the page calculations
