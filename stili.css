@@ -1,0 +1,48 @@
+html {
+    background-color: lightskyblue;
+    color: navy;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 16vmin;
+    letter-spacing: -0.2rem;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.controls {
+    padding: 4vw;
+    width: 75%;
+    margin: 10vw auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 5px solid black;
+    opacity: 0.3;
+    transition: 1s all;
+}
+
+.controls:hover,
+.controls:focus {
+    opacity: 1;
+}
+
+.controls h2 {
+    font-size: 5vw;
+    padding-bottom: 2px;
+}
+
+.controls label,
+.controls p,
+.controls input {
+    font-size: 5vw;
+}
+
+.controls div {
+    padding-bottom: 1rem;
+}
+
+p {
+    margin: 0;
+}
